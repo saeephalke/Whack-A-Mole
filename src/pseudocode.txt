@@ -50,7 +50,7 @@ This game is Whack-a-mole. In this game,
 import Timer class
 /* Comments about the Timer class */
 
-while (less than time limit) {
+while (less than time limit && !(gameOver)) {
   user input
   PlayGame
 }
