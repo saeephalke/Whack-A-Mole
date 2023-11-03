@@ -29,6 +29,8 @@ This game is Whack-a-mole. In this game,
    private int missCounter;
 
   -compares the index values
+
+
   -adds the points
     if (compareIndexValues) {
       score++;
@@ -39,11 +41,15 @@ This game is Whack-a-mole. In this game,
     }
 
   -if incorrect 3 times then game over
+
   -plays the game
 
 
 
 5. Driver class (ofc)
+import Timer class
+/* Comments about the Timer class */
+
 while (less than time limit) {
   user input
   PlayGame
