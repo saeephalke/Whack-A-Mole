@@ -1,0 +1,5 @@
+/* Names: Christina Huang, Isha Vyas, Felicia Chiu, Saee Phalke
+This game is Whack-a-mole. In this game,  
+*/
+
+-two classes other than the driver class
