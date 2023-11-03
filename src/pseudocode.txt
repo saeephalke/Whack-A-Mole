@@ -2,4 +2,50 @@
 This game is Whack-a-mole. In this game,  
 */
 
+
+
 -two classes other than the driver class
+1. Prints out the String with the mole in it
+    private String whackString = "";
+    private int index;
+    index = (int)(Math.random() * 5 + 1);
+
+    public String createString () {
+      for (i = 0; i < 5; i++) {
+          if (i != index) {
+              String += "-";
+          }
+          else {
+              String += "$";
+          }
+      }
+      return String;
+
+  }
+
+2. Gets the number and checks to see if the mole is correct
+   private int score;
+   private WhackString object;
+   private int missCounter;
+
+  -compares the index values
+  -adds the points
+    if (compareIndexValues) {
+      score++;
+      missCounter = 0;
+    }
+    else {
+      misscounter++;
+    }
+
+  -if incorrect 3 times then game over
+  -plays the game
+
+
+
+5. Driver class (ofc)
+while (less than time limit) {
+  user input
+  PlayGame
+}
+Print the points from the second class
