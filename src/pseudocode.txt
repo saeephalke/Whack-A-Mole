@@ -42,16 +42,15 @@ This game is Whack-a-mole. In this game,
 
   -if incorrect 3 times then game over
 
-  -plays the game
 
+3. Playing class
+    import Timer class
+    /* Comments about the Timer class */
 
+    while (less than time limit && !(gameOver)) {
+      user input
+      PlayGame
+    }
+    Print the points from the second class
 
 5. Driver class (ofc)
-import Timer class
-/* Comments about the Timer class */
-
-while (less than time limit && !(gameOver)) {
-  user input
-  PlayGame
-}
-Print the points from the second class
