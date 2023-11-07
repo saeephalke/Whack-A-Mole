@@ -13,15 +13,15 @@ public class WhackString {
 
     //creates a String with a random mole
     public String createString () {
-      for (i = 0; i < 5; i++) {
+      for (int i = 0; i < 5; i++) {
           if (i != index) {
-              String += "-";
+              whackString += "-";
           }
           else {
-              String += "$";
+              whackString += "$";
           }
       }
-      return String;
+      return whackString;
 
   }
 }
