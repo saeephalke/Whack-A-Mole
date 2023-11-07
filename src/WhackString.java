@@ -1,4 +1,4 @@
-public WhackString {
+public class WhackString {
 //Prints out a String with a random mole 
 
     //instance variables
