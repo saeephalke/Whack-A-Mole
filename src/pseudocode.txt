@@ -43,7 +43,7 @@ This game is Whack-a-mole. In this game,
   -if incorrect 3 times then game over
 
 
-3. Playing class
+3. WhackPlay()
     import Timer class
     /* Comments about the Timer class */
 
