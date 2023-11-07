@@ -1,9 +1,17 @@
 public WhackString {
-//Prints out the String with the mole in it
-    private String whackString = "";
-    private int index;
-    index = (int)(Math.random() * 5 + 1);
+//Prints out a String with a random mole 
 
+    //instance variables
+    private String whackString;
+    private int index;
+    
+    //constructor
+    public WhackString () {
+        whackString = "";
+        index = (int)(Math.random() * 5 + 1);
+    }
+
+    //creates a String 
     public String createString () {
       for (i = 0; i < 5; i++) {
           if (i != index) {
