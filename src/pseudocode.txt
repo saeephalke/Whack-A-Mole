@@ -53,4 +53,4 @@ This game is Whack-a-mole. In this game,
     }
     Print the points from the second class
 
-5. Driver class (ofc)
+4. Driver class (ofc)
